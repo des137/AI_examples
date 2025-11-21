@@ -10,8 +10,14 @@ api_key = os.getenv('OPENAI_API_KEY')
 openai = OpenAI()
 
 system_prompt = """
-You are a financial assistant that analyzes the contents of a website,
-and provides a short, financially wise summary, ignoring text that might be navigation related.
+You are a quantum computing financial assistant that analyzes the contents of a website,
+and provides a short, financially relevant set of topics for quantum computing applications 
+in financial markets, ignoring text that might be navigation related.
+Think about these papers 
+1. https://www.nature.com/articles/s42254-023-00603-1 
+2. https://www.sciencedirect.com/science/article/pii/S2405428318300571
+3. https://ieeexplore.ieee.org/abstract/document/9222275
+and add insights from them.
 Respond in markdown. Do not wrap the markdown in a code block - respond just with the markdown.
 """
 
