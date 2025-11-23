@@ -1,2 +1,2 @@
 # AI in finance
-How can AI help in finance?
+Can AI help in finance?
