@@ -57,7 +57,7 @@ A modular, production-ready deep learning training pipeline optimized for GPU tr
 ### Running the RAG Example
 ```bash
 cd examples
-# Set up environment variables
+# Set up environment variables (never commit actual credentials!)
 export WATSONX_APIKEY="your_api_key"
 export WATSONX_PROJECT_ID="your_project_id"
 export WATSONX_URL="your_watsonx_url"
